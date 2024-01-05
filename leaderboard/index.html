@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tableaux de Timers</title>
+</head>
+<body>
+
+    <div class="header">
+        <img src="flags.png" alt="Flags Image" class="logo">
+    </div>
+
+    <div class="container">
+        <table class="timer-table">
+            <caption>Mes meilleurs temps</caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Temps de Réaction (s)</th>
+                </tr>
+            </thead>
+            <tbody id="best-timers">
+                <!-- Les données JSON seront insérées ici avec JavaScript -->
+            </tbody>
+        </table>
+
+        <table class="timer-table">
+            <caption>Liste de tout les temps</caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Identifiant</th>
+                    <th>Temps de Réaction (s)</th>
+                </tr>
+            </thead>
+            <tbody id="all-timers">
+                <!-- Les données JSON seront insérées ici avec JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
