@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body onclick="startStopTimer()">
+    <div class="main">
+        <div class="text">Cliquez n'importe où sur la page pour démarrer le timer.</div>
+        <div class="images">
+            <strong>État du timer :</strong>
+            <div>
+                <img id="stop" src="assets/images/stop.png" alt="Stop Image">
+                <img id="go" src="assets/images/go.png" alt="Go Image">
+            </div>
+        </div>
+        <p id="timer">00.000</p>
+        <br/>
+        <p><strong>Mon meilleur score :</strong> <span id="best"></span></p>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

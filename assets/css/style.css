@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    background-color: rgb(58, 56, 56);
+    color : rgb(235, 235, 235);
+    font-family: 'Open Sans';
+}
+
+#stop {display: block;}
+#go {display: none;}
+
+.main {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+    height: 90vh;
+}
+
+.text {
+    padding: 5rem;
+    font-size: 1.2rem;
+}
+
+.images div {
+    margin: 1rem;
+}
